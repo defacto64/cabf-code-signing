@@ -2459,7 +2459,7 @@ A Subordinate CA MUST represent, in its Certificate Policy and/or Certification 
 
 ####  7.1.6.4  Subscriber Certificates
 
-A Certificate issued to a Subscriber MUST contain one or more policy identifier(s), defined by the CA, in the Certificate's certificatePolicies extension that indicates adherence to and compliance with these Requirements. CAs complying with these Requirements MAY also assert the reserved policy OIDs in such Certificates.
+CAs complying with these Requirements MUST include exactly one of the CA/Browser Forum Reserved Policy OIDs (see section 7.1.6.1) in the Subscriber Certificate’s certificatePolicies extension. CAs MAY also assert in such Certificates one or more policy identifiers, defined by the CA, that indicates adherence to and compliance with these Requirements.
 
 The CA MUST document in its Certificate Policy or Certification Practice Statement that the Certificates it issues containing the specified policy identifier(s) are managed in accordance with these Requirements.
 
@@ -3036,3 +3036,4 @@ jurisdictionCountryName ATTRIBUTE ::= {
 
 END
 ```
+
