@@ -2459,7 +2459,8 @@ A Subordinate CA MUST represent, in its Certificate Policy and/or Certification 
 
 ####  7.1.6.4  Subscriber Certificates
 
-A Certificate issued to a Subscriber MUST contain exactly one of the reserved policy OIDs specified in Section 7.1.6.1 in the Certificate's CertificatePolicies extension. 
+Effective September 15, 2026 a Certificate issued to a Subscriber MUST contain exactly one of the reserved policy OIDs specified in Section 7.1.6.1 in the Certificate's CertificatePolicies extension.
+
 CAs complying with these Requirements MAY also assert or more policy identifier(s), defined by the CA, in the Certificate's CertificatePolicies extension, that indicates adherence to and compliance with these Requirements.
 
 The CA MUST document in its Certificate Policy or Certification Practice Statement that the Certificates it issues containing the specified policy identifier(s) are managed in accordance with these Requirements.
